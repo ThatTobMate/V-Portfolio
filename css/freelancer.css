@@ -206,6 +206,7 @@ section.success a.active {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    margin-bottom: 100px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -248,6 +249,26 @@ section.success a.active {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
 }
 
 #portfolio * {

@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: white;
 }
 
 h1,
@@ -97,15 +97,14 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;
     font-size: 2em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 @media(min-width:768px) {
@@ -115,7 +114,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 6em;
     }
 
     header .intro-text .skills {
@@ -132,10 +131,12 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        text-transform: none;
+        font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -143,7 +144,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -217,11 +218,13 @@ section.success a.active {
 .mail-button{
     background-color:rgb(200, 160, 248);
     color: white; 
+    font-weight: 700;
 }
 
 .cv-button{
     background-color:#FAD2FF;
-    color: white; 
+    color: white;
+    font-weight: 700; 
 }
 
 .mail-button:hover{
@@ -443,7 +446,7 @@ footer .footer-below {
     padding: 25px 0;
     background-color: rgb(200, 160, 248);
     font-size: 20px;
-    font-weight: 3px;
+    font-weight: 700;
 }
 
 .btn-social {

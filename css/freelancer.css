@@ -193,6 +193,28 @@ section.success a.active {
     color: #2c3e50;
 }
 
+section#technologies {
+    background: cornsilk;
+}
+
+.tech-icons{
+    max-height: 230px;
+}
+
+.tech-block{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tech-title{
+    margin-bottom: 50px;
+}
+
+.ruby{
+  padding-top: 50px;
+}
+
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;

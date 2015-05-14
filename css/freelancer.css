@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: white;
 }
 
 h1,
@@ -58,12 +58,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #F7FF84;
+    border-color: #161218;
 }
 
 hr.star-light:after {
-    color: #F7FF84;
-    background-color: #390057;
+    color: #161218;
+    background-color: #FF83FA;
 }
 
 hr.star-primary {
@@ -97,15 +97,14 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;
     font-size: 2em;
     font-weight: 700;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 @media(min-width:768px) {
@@ -115,7 +114,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 6em;
     }
 
     header .intro-text .skills {
@@ -132,10 +131,12 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 2.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        text-transform: none;
+        font-family: Kaushan Script,Helvetica Neue,Helvetica,Arial,cursive;
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -143,7 +144,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 }
 
@@ -193,6 +194,60 @@ section.success a.active {
     color: #2c3e50;
 }
 
+.tech-icons{
+    max-height: 230px;
+}
+
+.tech-block{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tech-title{
+    margin-bottom: 50px;
+}
+
+.ruby{
+  padding-top: 50px;
+}
+
+#contact{
+    background-color: #FAC6F8;
+}
+
+.mail-button{
+    background-color:rgb(200, 160, 248);
+    color: white; 
+    font-weight: 700;
+}
+
+.cv-button{
+    background-color:#FAD2FF;
+    color: white;
+    font-weight: 700; 
+}
+
+.mail-button:hover{
+    background-color:#161218;
+    color: #FF83FA;
+}
+
+.cv-button:hover{
+    background-color:#161218;
+    color: #FF83FA;
+}
+
+#about{
+    background-color: rgb(200, 160, 248);
+}
+
+#technologies{
+    background-color: rgb(200, 160, 248);
+}
+
+
+
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -201,6 +256,10 @@ section.success a.active {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio{
+    background: #FAC6F8;
 }
 
 #portfolio .portfolio-item {
@@ -221,7 +280,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(250, 210, 255, 1);
+    background: rgba(0, 0, 0, 0.77);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -273,6 +332,11 @@ section.success a.active {
 
 #portfolio * {
     z-index: 2;
+}
+
+.port-image{
+    height: 280px;
+    width: 100%;
 }
 
 @media(min-width:767px) {
@@ -348,7 +412,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #161218;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -365,16 +429,24 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #161218;
+    color: #FF83FA;
 }
 
 footer .footer-col {
     margin-bottom: 50px;
 }
 
+footer .footer-col p {
+    color: white;
+}
+
+
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: rgb(200, 160, 248);
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .btn-social {
